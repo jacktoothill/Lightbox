@@ -19,7 +19,7 @@ $("#imageGallery a").click(function(event) {
 	//update overlay with the image linked in the link
 	$image.attr("src", imageLocation);
 	//show overlay
-	$overlay.show();
+	$overlay.fadeIn(1000);
 	//get the child element alt attr and set caption
 	var captionText = $(this).children("img").attr("alt");
 	$caption.text(captionText);
