@@ -46,10 +46,16 @@ a {
 }
 
 #overlay img {
- margin-top: 10%;
+ position: relative;
+ top: 50%;
+ transform: translateY(-50%);
  max-width: 780px;
 }
 
 #overlay p {
  color:white; 
+ position:absolute;
+ bottom:20px;
+ left:0;
+ right:0;
 }
